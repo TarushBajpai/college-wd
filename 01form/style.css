@@ -1,0 +1,44 @@
+body{
+    margin:0;
+    padding: 0;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.form-control{
+    border: 2px solid black;
+    background-color: white;
+    margin: 4px;
+}
+.form-compo{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 80%;
+    background-color:azure;
+}
+input{
+    width: 80%;
+    margin: 2px;
+    border-radius: 2px;
+}
+label{
+    margin: 5px;
+    padding: 2px;
+}
+
+.form-btn{
+     margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    margin: 2px;
+}

@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  width: 400px;
+  height: 500px;
+  border: 1px solid black;
+  
+  margin: 2px;
+
+}
+img {
+  height: 300px;
+  width: 100%;
+ 
+}
