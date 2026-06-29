@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .base{
+            width: 100%;
+            height: 500px;
+            background-color: black;
+            position: relative;
+        }
+        .square{
+            height: 200px;
+            width: 250px;
+            background-color: grey;
+            position: absolute;
+        }
+        #one{
+            top: 25px;
+            left: 25px;
+        }
+        #two{
+            top: 25px;
+            left:300px;
+        }
+        .rectangle{
+            position: relative;
+            background-color: yellow;
+            height: 200px;
+            width: 525px;
+        }
+        #recOne{
+            top: 25px;
+            left:900px;
+        }
+        .internalSquare{
+            background-color: white;
+            position: absolute;
+            width: 150px;
+            height: 150px;
+        }
+        #sqOne{
+            top:25px;
+            left: 30px;
+        }
+        #recTwo{
+            top: 55px;
+            left: 25px;
+        }
+        #sqTwo{
+            top: 25px;
+            left:330px;
+        }
+        #three{
+            left: 900px;
+            bottom: 48px;
+        }
+        #four{
+            left:1180px;
+            bottom:48px;
+        }
+    </style>
+</head>
+<body>
+    <div class="base">
+        <div id="one" class="square"></div>
+         <div class="square" id="two"></div>
+         <div class="rectangle" id="recOne">
+            <div class="internalSquare" id="sqOne"></div>
+         </div>
+
+         <div class="rectangle" id="recTwo">
+            <div class="internalSquare" id="sqTwo"></div>
+         </div>
+          <div id="three" class="square"></div>
+         <div class="square" id="four"></div>
+         
+    </div>
+
+</body>
+</html>

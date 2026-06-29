@@ -40,10 +40,42 @@
               <li><a class="dropdown-item" href="#">Deutsch</a></li>
             </ul>
           </div>
-          <button class="btn primary-btn" type="button">Login</button>
+          <button class="btn primary-btn" id="loginBtn" type="button">Login</button>
         </div>
       </div>
     </nav>
+
+
+    <!--  hidden login form-->
+      <div id="login-overlay">
+          <div class="login-box border rounded-1">
+              <form>
+                  <h2 class="m-3">Sign in</h2>
+            <div class="mb-3 mt-3">
+
+              <input type="email" class="form-control bg-transparent" id="exampleInputEmail1" placeholder="Email or mobile number" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+              <input type="password" class="form-control bg-transparent" id="exampleInputPassword1" placeholder="Password">
+            </div>
+            <button type="submit" class="btn  w-100 mb-3 primary-btn">Submit</button>
+            <div class = "d-flex justify-content-center "><p>OR</p></div>
+            <button type="button" class="btn btn-secondary w-100 mb-3">Use a sign-in code</button>
+            <div class = "d-flex justify-content-center mb-3"><a href="#">Forget Password?</a></div>
+            <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input " id="exampleCheck1">
+            <label class="form-check-label mb-3" for="exampleCheck1">Remember Me</label>
+            <div ><p>New to Netflix? <a href="#">Sign up now.</a> </p></div>
+            <div><p class="text-secondary">This page is protected by Google reCAPTCHA to <br>
+                  ensure you're not a bot.
+                  <a href="">Learn more</a> 
+                </p>
+            </div>
+          </div>
+
+          </form>
+        </div>
+  </div>
 
     <div class="container-fluid hero">
       <div class="heroText">
@@ -182,5 +214,7 @@
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
       crossorigin="anonymous"
     ></script>
+
+    <script src="script.js"></script>
   </body>
 </html>

@@ -69,3 +69,32 @@ footer{
 .footer-links a:hover {
     color: white;
 }
+#login-overlay{
+    position: fixed;
+    inset: 0;
+
+    background: rgba(0,0,0,.6);
+
+    display: none;
+
+    justify-content: flex-end;
+    padding-right:120px;
+    padding-top: 25px;
+    align-items: center;
+
+    z-index: 999;
+}
+
+.login-box{
+
+    width:420px;
+    padding:45px;
+    background:rgba(20,20,20,.75);
+    backdrop-filter:blur(2px);
+
+}
+
+.login-box input::placeholder{
+    color: white;
+    opacity: 1;
+}
