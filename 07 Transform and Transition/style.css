@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.translations{
+    display: flex;
+}
+
+.d{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(246, 255, 0);
+    margin: 50px;
+    border: 2px solid blueviolet;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition-property: all;
+    transition-duration: 3s;
+    transition-delay: 0.5s;
+    transition-timing-function: linear;
+}
+#one:hover{
+    transform: rotate3d(1,2,3,60deg);
+}
+#two:hover{
+    background-color: aqua;
+    transform: translate3d(60px,60px,60px)
+}
+
+#three:hover{
+    background-color: red;
+    transform: scale3d(1.5,1,1);
+}
+.d1{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(2, 255, 27);
+    margin: 50px;
+    border: 2px solid blueviolet;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition-property: all;
+    transition-duration: 3s;
+    transition-delay: 0.5s;
+    transition-timing-function: ease;
+}
+#four:hover{
+    background-color: aliceblue;
+    transform: translateX(200px);
+}
+#five:hover{
+    background-color: magenta;
+    transform: translateY(100px);
+}
+#six:hover{
+    background-color: maroon;
+    transform: translateZ(200px);
+}
+#seven:hover{
+    background-color: wheat;
+   transform: rotate(45deg);
+}
+.rotateImg{
+    margin-top: 50px;
+    width: 600px;
+    height: 600px;
+    display: block;
+    background: url(media/img.png) no-repeat center;
+    background-size: contain; 
+    transition-property: all;
+    transition-duration: 8s;
+    transition-timing-function: ease-out;
+}
+#rImg:hover{
+   transform: rotate(360deg);
+}

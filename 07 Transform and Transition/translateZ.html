@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background:#222;
+}
+
+.container{
+    perspective:600px;
+}
+
+.box{
+    width:150px;
+    height:150px;
+    background:tomato;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:24px;
+    transition:0.5s;
+}
+
+.container:hover .box{
+    transform:translateZ(150px);
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+    <div class="box">Hover Me</div>
+</div>
+
+</body>
+</html>

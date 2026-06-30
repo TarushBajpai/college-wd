@@ -1,0 +1,9 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.base{
+    width: 500px;
+    height: 600px;
+    background: url(media/BhagvaanRam.png);
+}

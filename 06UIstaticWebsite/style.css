@@ -92,7 +92,7 @@
 }
 .headerLabel p {
     margin: 0;
-    font-size: 12px; /* Adjusted to fit the pill height nicely */
+    font-size: 12px;
 }
 .cardBase{
     margin-top: 20px;
@@ -173,4 +173,71 @@
     font-size: 13px;
     cursor: pointer;
     border-radius: 3px;
+}
+.bottomCards{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.cardCol{
+    display: flex;
+    flex-direction: column;
+     
+}
+.bottomCard{
+    width: 250px;
+    height: 150px;
+    background-color: rgb(164, 212, 255);
+    margin-bottom: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    padding: 10px;
+}
+.bottomImage{
+    width: 600px;
+    height: 550px;
+    background-image: url(media/footerImage.jpg);
+    background-size: cover;
+    background-position: center;  
+}
+.bottomCard:hover{
+    box-shadow: 0 4px 3px 4px rgba(0, 0, 0, 0.2);
+}
+#bottomHeading1{
+    color: blue;
+}
+#bottomHeading2{
+    color: rgb(255, 0, 200);
+}
+#bottomHeading3{
+    color: purple;
+}
+#bottomHeading4{
+    color: green;
+}
+#bottomHeading5{
+    color: yellow;
+}
+#bottomHeading6{
+    color: red;
+}
+#bcard1:hover{
+    box-shadow: 0 4px 3px 4px rgba(17, 0, 255, 0.826);
+}
+#bcard2:hover{
+    box-shadow: 0 4px 3px 4px rgba(230, 0, 255, 0.826);
+}
+#bcard3:hover{
+    box-shadow: 0 4px 3px 4px rgba(162, 0, 255, 0.826);
+}
+#bcard4:hover{
+    box-shadow: 0 4px 3px 4px rgba(0, 255, 76, 0.826);
+}
+#bcard5:hover{
+    box-shadow: 0 4px 3px 4px rgba(204, 255, 0, 0.826);
+}#bcard6:hover{
+    box-shadow: 0 4px 3px 4px rgba(255, 72, 0, 0.826);
 }
