@@ -1,0 +1,38 @@
+*{
+    margin: 0%; 
+    padding: 0%;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+.header{
+    text-align: center;
+    width: 100%;
+    background-color:aqua;
+}
+.menu ul{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    background-color: rgb(137, 198, 251);
+    padding: 20px;
+    justify-content: space-around;
+}
+.body{
+    background-color: moccasin;
+    padding: 20px;
+
+}
+.footer{
+    padding: 20px;
+    background-color: aliceblue;
+}
+@media(max-width:768px) {
+    .container{
+        background-color: rgb(151, 151, 243);
+    }
+}

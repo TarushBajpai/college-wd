@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            position: relative;
+            width: 900px;
+            height: 500px;
+            background-color: aqua;
+        }
+        .box{
+            position:absolute;
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            background-color: rgb(255, 179, 0);
+            text-align: center;
+            
+            top: 450px;
+            animation:  bounce;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;  
+            animation-timing-function: ease-out;
+        }
+        @keyframes bounce {
+            0% {transform: translate(0,0) rotate(60deg);}
+            20%{transform: translate(200px,-350px) rotate(60deg);}
+            40%{transform: translate(400px,0) rotate(90deg);}
+            60%{transform: translate(550px,-250px) rotate(120deg);}
+            80%{transform: translate(700px,0) rotate(145deg);}
+            90%{transform: translate(750px,-150px) rotate(175deg);}
+            95%{transform: translate(800px,0) rotate(180deg);}
+            100%{transform: translate(810px,0) rotate(185deg);}
+        } 
+       
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">Box</div>
+    </div>
+</body>
+</html>
