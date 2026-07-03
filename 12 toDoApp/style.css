@@ -1,0 +1,25 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+}
+h1{
+    margin: 20px;
+    color: white;
+    font-family: sans-serif;
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 239, 59);
+}
+
+input{
+    width: 600px;
+    height: 40px;
+    background-color: aquamarine;
+    border-radius: 20px;
+}
