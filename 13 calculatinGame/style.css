@@ -1,0 +1,78 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    font-family:cursive;
+}
+.heading{
+    color:blueviolet;
+    
+}
+.base {
+  margin-top: 35px; 
+  width: 500px;
+  height: 500px;
+  border: 2px dotted rgb(255, 243, 243);
+  border-radius: 10px;
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background-color:rgb(27, 26, 26); 
+}
+.base:hover{
+ box-shadow: 0 0 8px 4px rgb(217, 3, 255);
+}
+.startBtn{
+    width: 80px;
+    height: 40px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: rgb(164, 2, 201);
+    color: black;
+    font-size: larger;
+}
+.startBtn:hover{
+     box-shadow: 0 0 8px 4px rgb(3, 255, 179);
+}
+.equationBase{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.numBlock ,.opBlock{
+    width: 50px;
+    height: 50px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+   
+}
+.opBlock{
+    border: hidden;
+}
+#inputResult{
+    width: 200px;
+    height: 40px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    text-align: center;
+    font-size: larger;
+    margin-bottom: 10px;
+    background-color: black;
+    color: rgb(106, 0, 255);
+}
+.numOne,.numTwo ,.cooldownCount ,.operator{
+    color: rgb(106, 0, 255);
+}
