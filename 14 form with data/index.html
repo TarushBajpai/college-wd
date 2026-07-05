@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="base">
+        <div class="form">
+            <center><h1>Form</h1></center>
+            <div id="checkbox"> 
+                <input type="checkbox" name="robotCheck" id="robotCheck"> 
+                <label for="robotCheck">I AM NOT A ROBOT</label> 
+            </div>
+            
+            <label for="name">Name*</label>
+            <input type="text" name="name" class="inputField" id="name" placeholder="Enter Name">
+
+            <label for="email">Email*</label>
+            <input type="email" name="email" class="inputField" id="email" placeholder="Enter Email">
+
+            <button type="submit" class="btn submitBtn">Add Data</button>
+
+        </div>
+        <div class="database">
+           <h1>Database</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                 <tbody id="tableBody">
+                   
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

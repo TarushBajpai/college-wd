@@ -79,10 +79,10 @@ let displayResult = ()=>{
 
 let startBtn = document.querySelector('.startBtn');
 startBtn.addEventListener("click", () => {
+    input.focus();
     base.style.boxShadow = '';
     input.value = "";
     resultDisplay.innerHTML = "";
-    input.focus();
     generateEquation();
     clock(9);
 
